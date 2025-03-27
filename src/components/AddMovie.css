@@ -1,0 +1,55 @@
+.add-movie {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-movie h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-movie form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-movie label {
+  font-weight: bold;
+}
+
+.add-movie input,
+.add-movie select,
+.add-movie textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons button[type='submit'] {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-buttons button[type='button'] {
+  background-color: #ccc;
+}
+
+.form-buttons button:hover {
+  opacity: 0.9;
+}
